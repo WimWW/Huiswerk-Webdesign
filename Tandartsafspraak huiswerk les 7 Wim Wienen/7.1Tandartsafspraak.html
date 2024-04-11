@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <title>Tandartsafspraak</title>
+    </head>
+    <body>
+        <h1>Tandartsafspraak</h1>
+        <p>
+        <b>Welkom op de website van Tandartsenpraktijk Kieskeurig in Almstad</b><br><br>
+           Ons team staat garant voor kwalitatieve tandheelkundige zorgverlening waarbij niet alleen de mond, <br>maar vooral de mens centraal staat.
+           Onze individuele aanpak is gebaseerd op het bieden van hoogwaardige<br>tandheelkundige zorg. Persoonlijke aandacht en vertrouwen,
+           een juiste prijs-kwaliteit verhouding en langdurige<br>ervaring zijn belangrijke voorwaarden voor een hoge kwaliteit van zorgverlening.<br><br>
+           Naast de reguliere tandheelkunde kunt u bij ons terecht voor:<br>
+           - Tandvleesbehandelingen en mondhygiëne;<br>
+           - Esthetische tandheelkunde;<br>
+	       - Uitgebreid kroon- en brugwerk;<br>
+           - Angst-tandheelkunde;<br>
+      	   - Prothetische tandheelkunde (o.a. kunstgebitten, frameprotheses en plaatjes);<br><br>
+           U kunt een afspraak maken met uw tandarts door onderstaande stappen in het afspraakformulier te volgen.<br>
+        </p>
+        <ul>
+            <li>Vul uw persoonlijke gegevns in.</li>
+            <li>Kies welke klacht op u van toepassing is.</li>
+            <li>Voeg eventueel een foto toe.</li>
+            <li>Geef een nadere toelichting op de klacht.</li>
+            <li>Kies een datum voor het consult.</li>
+        </ul>
+        <br>
+        <figure>
+            <img src="Afbeeldingen/Praktijkingang.jpg" alt="ingang" id="ingang" width="300">
+            <img src="Afbeeldingen/Wachtruimte.JPG" alt="wachtruimte" id="wachtruimte" width="300">
+            <img src="Afbeeldingen/Behandelruimte.JPEG" alt="behandelkamer" id="behandelkamer" width="300">
+            <figcaption><strong>Enkele foto's die een indruk geven van de praktijk. De ingang, de gezellige wachtruimte en de rustgevende behandelkamer.
+            </strong></figcaption>
+        </figure><br><br>
+        <h3>Afspraakformulier</h3>
+        <form id="Afspraakformulier" action="https://formspree.io/f/xpzvlwdw" method="post">
+            <fieldset>
+                <legend><strong>Persoonlijke gegevens</strong></legend>
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" name="naam"><br><br>
+                <input type="radio" name="geslacht" value="man" checked>Man
+                <input type="radio" name="geslacht" value="vrouw">vrouw
+                <input type="radio" name="geslacht" value="anders">Anders<br><br>
+                <label for="adres">Adres:</label>
+                <input type="text" id="adres" name="adres"><br><br>
+                <label for="postcode">Postcode:</label>
+                <input type="text" id="postcode" name="postcode"><br><br>
+                <label for="woonplaats">Woonplaats:</label>
+                <input type="text" id="woonplaats" name="woonplaats"><br><br>
+                <label for="telefoonnummer">Telefoonnummer:</label>
+                <input type="tel" id="telefoonnummer" name="telefoonnummer"><br><br>
+                <label for="E-mailadres">E-mailadres:</label>
+                <input type="email" id="E-mailadres" name="email"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend><strong>Beschrijving van de klachten</strong></legend>
+                <label for="kiespijn">Kiespijn</label>
+                <input type="checkbox" id="kiespijn" value="kiespijn" name="kiespijn">
+                <label for="tandpijn">Tandpijn</label>
+                <input type="checkbox" id="tandpijn" value="tandpijn" name="tandpijn">
+                <label for="bovenkaak">Bovenkaak</label>
+                <input type="checkbox" id="bovenkaak" value="bovenkaak" name="bovenkaak">
+                <label for="onderkaak">Onderkaak</label>
+                <input type="checkbox" id="onderkaak" value="onderkaak" name="onderkaak">
+                <label for="gebroken">Gebroken tand/kies</label>
+                <input type="checkbox" id="gebroken"  value="gebroken" name="gebroken">
+                <label for="losse vulling">Losse vulling</label>
+                <input type="checkbox" id="losse vulling"  value="losse vulling" name="losse vulling">
+                <label for="anders">Anders</label>
+                <input type="checkbox" id="anders"  value="anders" name="anders">
+                <br><br>
+                <label for="klachtfoto">Foto klacht:</label>
+                <input type="file" id="klachtfoto" name="klachtfoto">
+            </fieldset>
+            <fieldset>
+                <legend><strong>Toelichting van de klachten</strong></legend>
+                <label for="informatie">Extra informatie:</label>
+                <input type="text" id="informatie" name="informatie" maxlength="1500"><br><br>
+                <label for="afspraakdatum">Gewenste afspraakdatum:</label>
+                <input type="date" id="afspraakdatum" name="afspraakdatum" max="2024-07-31">
+            </fieldset>
+            <br>
+            <button type="submit" name="verzend"><strong>Verzend</strong></button>
+        </form>
+    </body>
+</html>
