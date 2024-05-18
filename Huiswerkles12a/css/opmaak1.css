@@ -1,0 +1,146 @@
+#center{
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background: #FFCEC2;
+    color: #19191b;
+}
+footer{
+    background-color: #16a12e;
+    color:#19191b ;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+h3{
+    color: #19191b;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-width: 3cqi;
+    border-style: solid;
+    border-color: rgb(255, 136, 0);
+}
+th{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+}
+td{
+    color: #19191b;
+}
+#kolom1{
+    background-color: #FF9999;
+}
+#kolom2{
+    background-color: #7f7fac;
+}
+#kolom3{
+    background-color: #b118a4;
+}
+#kolom4{
+    background-color: #999999;
+}  
+#vijf{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #FF99FF;
+}
+#zes{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #34063f;
+}
+#zeven{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #c41a1a;
+}
+#acht{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #12a812; 
+}
+#negen{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #729916;
+}
+#tien{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #CC9900;
+}
+#elf{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #8bb374;
+}
+#twaalf{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #139243;
+}
+#dertien{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #0f807a;
+}
+#veertien{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #d4030e;
+}
+#vijftien{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #977e8e; 
+}
+#zestien{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #196144
+}
+#zeventien{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #554924;
+}
+#achttien{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #146a8b;
+}
+#negentien{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #836767;
+}
+#twintig{
+    border-width: 1px;
+    border-style:solid;
+    text-align: center;
+    background-color: #1d8152;
+}
