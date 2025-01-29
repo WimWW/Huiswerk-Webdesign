@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+         <!-- Verplichte metatags -->
+        <meta charset="utf-8">
+        <meta name="description" content="Huiswerk maken is mooi, vooral met foto's erbij">
+        <meta name="keywords" content="Ik, ">
+        <meta name="author" content="Wim Wienen">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Huiswerkopdracht les 25</title>
+        <!-- Bootstrap-CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/opmaak.css">
+        
+        <script
+        src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+        $("#knop").click(function() {
+        var naam = $("#idTekstveld1").val();
+        var foto = $("#idTekstveld2").val();
+        var emotie = $("#idTekstveld3").val();
+        window.alert(
+        "Ik ben " + naam +
+        " en de foto die mij aanspreekt is " + foto +
+        " en geeft mij de emotie " + emotie
+        );
+        });
+        });
+        </script>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js">
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+        $("#verberg").click(function() {
+        $("p").hide();
+        });
+        $("#toon").click(function() {
+        $("p").show();
+        });
+        });
+        </script>
+       </head>
+    <body>
+        <header >
+                <div class="container-sm">
+                <h1>Een foto kan emotie teweeg brengen !</h1>
+                <hr>
+                </div>
+        </header>
+    <hr>
+    <div class="container-sm" style="background-color: rgb(102, 167, 224);">
+        <h2>Welke foto spreekt u het meest aan?</h2>
+        <button id="verberg">Verberg</button>
+        <button id="toon">Toon</button>
+        <p>
+        Foto's zeggen vaak heel veel. In een oogopslag krijg je een indruk die iets met je doet. Elke foto zorgt voor een emotie. 
+        Bijvoorbeeld blijdschap, afkeer, boosheid, verdriet of angst. Die emotie wordt ingegeven door een ervaring die je hebt
+        gehad.
+        </p>
+        <noscript>
+         Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+       </noscript>
+    </div>
+    <div class="container-sm">
+    <div class="row row-cols-6">
+    <div class="col"><img src="afbeelding/foto1.jpg" alt="berg"><p class="p1">Berg</p></div>
+    <div class="col"><img src="afbeelding/foto2.jpg" alt="fontein"><p class="p1">Fontein</p></div>
+    <div class="col"><img src="afbeelding/foto3.jpg" alt="pad"><p class="p1" >Pad</p></div>
+    <div class="col"><img src="afbeelding/foto4.jpg" alt="plas" ><p class="p1">Plas</p></div>
+    <div class="col"><img src="afbeelding/foto5.jpg" alt="stad"><p class="p1">Stad</p></div>
+    <div class="col"><img src="afbeelding/foto6.jpg" alt="weg"><p class="p1" >Weg</p></div>
+    </div>
+    </div>
+    <form action="https://formspree.io/f/myzkwrwb" method="POST">
+        Wat is uw naam?
+        <input type="text" id="idTekstveld1">
+        <br><br>
+        Welke foto spreekt u aan?
+        <input type="text" id="idTekstveld2">
+        <br><br>
+        Welke emotie geeft die foto?
+        <input type="text" id="idTekstveld3">
+        <br><br>
+        <input id="knop" name="knop" type="button" value="Klik op deze knop">
+        <br><br>
+        <input type="email" name="_replyto" placeholder="Uw email">
+        <br><br>
+       
+        <textarea name="message" placeholder="Uw bericht"></textarea>
+        <br><br>
+        <button type="submit"  name="verzendknop"><strong>Verzend</strong></button>
+     </form>
+       <hr>
+    <footer id="copy">
+        ©-2025 Wienen/Webdesign<br>
+        Bereik ons via de mail. 
+        Mail ons <a href="mailto:willemfrankwienen@gmail.com">Wim</a>
+    </footer>
+    <!-- Bootstrap-JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" 
+    crossorigin="anonymous"></script>
+    </body>
+</html>
